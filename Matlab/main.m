@@ -4,10 +4,9 @@ clc;                          	% clear the command terminal
 
 %% Housekeeping
  
-%addpath('D:\Uyung\TA\Tsunami\Program\testing\ximu_matlab_library');	% include x-IMU MATLAB library
-addpath('D:\Uyung\TA\Tsunami\Program\program_Matlab_Madgwick_FIX\quaternion_library');	% include quatenrion library
-addpath('D:\Uyung\TA\Tsunami\Program\program_Matlab_Madgwick_FIX\GyroscopeIntegration');    % include Gyroscope integration library
-addpath('D:\Uyung\TA\Tsunami\Program\program_Matlab_Madgwick_FIX\AccelerometerMagnetometer');    % include Accelerometer and Magnetometer Integration library
+addpath('github.com\dwiw96\Sea-Wave-Measurenment-Using-9dof\quaternion_library');	% include quatenrion library
+addpath('github.com\dwiw96\Sea-Wave-Measurenment-Using-9dof\GyroscopeIntegration');    % include Gyroscope integration library
+addpath('github.com\dwiw96\Sea-Wave-Measurenment-Using-9dof\AccelerometerMagnetometer');    % include Accelerometer and Magnetometer Integration library
 
 %% Import data
 
